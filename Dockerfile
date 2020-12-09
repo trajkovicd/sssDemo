@@ -1,8 +1,8 @@
-FROM httpd:latest
+FROM php:apache
 
 USER root
 
-RUN yum install php -y
+#RUN yum install php -y
 
 USER default
 
